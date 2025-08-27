@@ -1,4 +1,4 @@
-const number = 5;
+const number = 7;
 let max = 10;
 
 for (let i = 1; i <= max; i++) {
