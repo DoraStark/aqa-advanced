@@ -1,0 +1,5 @@
+{
+  "$schema": "https://raw.githubusercontent.com/lint-staged/lint-staged/main/schema.json",
+  "*.{js,jsx,ts,tsx}": ["eslint --fix", "prettier --write"],
+  "*.{json,md,css,html}": ["prettier --write"]
+}
